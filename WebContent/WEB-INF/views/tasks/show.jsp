@@ -11,5 +11,6 @@
     <p>タスク内容:<c:out value="${task.content}"/></p>
 
     <p><a href="${pageContext.request.contextPath }/index">一覧に戻る</a></p>
+    <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">この仕事内容を変更する</a></p>
  </c:param>
 </c:import>
